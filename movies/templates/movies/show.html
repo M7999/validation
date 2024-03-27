@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ movie.title }} Details</title>
+</head>
+<body>
+    <h2>{{ movie.title }} Details</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td><b>Director:</b></td>
+                <td>{{ movie.director }}</td>
+            </tr>
+            <tr>
+                <td><b>Release date:</b></td>
+                <td>{{ movie.release_date }}</td>
+            </tr>
+            <tr>
+                <td><b>Genre:</b></td>
+                <td>{{ movie.genre }}</td>
+            </tr>
+            <tr>
+                <td><b>Duration (min):</b></td>
+                <td>{{ movie.duration }}</td>
+            </tr>
+            <tr>
+               
+        </tbody>
+    </table>
+</html>
