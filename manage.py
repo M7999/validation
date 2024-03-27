@@ -1,3 +1,11 @@
+"""
+manage.py
+
+This module serves as the entry point for managing the application.
+
+Author: [Manu Kumar]
+Date: [27/03/2024]
+"""
 #!/usr/bin/env python
 import os
 import sys
